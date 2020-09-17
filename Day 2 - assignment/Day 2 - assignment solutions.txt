@@ -1,0 +1,29 @@
+1) Refer BiggestAmongThree.java
+
+2) Refer Factorial.java
+
+3) Refer Duck.java, DuckDemo.java, static variable is static to the respective classes only.
+
+4) Refer Duck.java and DuckDemo.java, static method and ordinary method has same accesibility to static variable.
+
+5) Refer HomeLoan.java, PersonalLoan.java, BankAccountHolder.java, Bank.java
+
+6) Refer Volume.java
+
+7) Refer Fello.java, hello(int i) is called because hello(5) is specific to int arguement. Moreover int type has highest preference over others.
+
+8) Refer Student.java, When default constructor is deleted std1 object creation is not possible without providing arguements.
+
+9)
+Employee - Class name
+e1, e2 - instances
+example,
+Employee e1 = new Employee();
+Employee e2 = e1;
+here, e1 is the Object and e2 is Object reference.
+
+10, 11) Refer Monitor.java, Keyboard.java, Mouse.java, CPU.java, Computer.java
+
+12) Refer CityCode.java
+
+13) Refer MyCalculator.java, Employees.java, IncomeTaxDeductions.java
