@@ -1,0 +1,19 @@
+1) try block can exist without catch block but must include finally block.
+
+2) No. catch block should precede by try block.
+
+3) No. finally bock should precede either by try block or catch block.
+
+4) Yes. try block can exist with just finally block.
+
+5) No. In a nested try-catch block or stacked try-catch block the unhandled exceptions of inner try-catch block can be handled by outer try-catch block.
+
+6) We can handle every exception if we reference the exception object to Exception superclass.
+
+7) Refer ConstructorException.java
+
+8) Refer MyNullPointerException.java, Student.java
+
+9) Refer NestedTryCatch.java
+
+10) Refer AccountHolderApp.java, Account.java, AccountOperationsInterface.java, AccountBlockedException.java, InsufficientBalanceExceptioin.java
