@@ -1,0 +1,11 @@
+1) Refer FileAttributes.java, demo.txt
+
+2) Refer FileCopy.java, data.txt, data_copy.txt
+
+3) Refer Student.java, WriteStudentData.java, StudentData.ser
+
+4) Refer Student.java, ReadstudentData.java, StudentData.ser
+
+5) Refer SentencesWordsCounter.java, demo.txt
+
+6) Customer.java, CustomerDataSerializable.java, CustomerDataDeserializable.java
