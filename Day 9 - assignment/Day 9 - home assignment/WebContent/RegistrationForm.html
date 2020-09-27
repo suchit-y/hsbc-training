@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ABC Bank Registration</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	<div id=div1>
+		<h2>Welcome to ABC Bank</h2>
+		<h3>Customer Registration Form</h3>
+	</div>
+	<hr>
+	<div id=div2>
+		<form action="\" method="get" name=myForm onsubmit="return(toJSON());">
+			<table>
+				<tr>
+					<td><label>Enter Name: </label></td>
+					<td colspan=2><input type=text name=name></td>
+				</tr>
+				<tr>
+					<td><label>Enter Password: </label></td>
+					<td colspan=2><input type=password name=pwd></td>
+				</tr>
+				<tr>
+					<td><label>Enter Email: </label></td>
+					<td colspan=2><input type=email name=email></td>
+				</tr>
+				<tr>
+					<td><label>Enter Gender: </label></td>
+					<td><input type=radio id=gender name=gender value="male">Male</td>
+					<td><input type=radio id=gender name=gender value="female">Female</td>
+				</tr>
+				<tr>
+					<td><label>Select Country: </label></td>
+					<td colspan=2><select name=country>
+							<option value=IN>India</option>
+							<option value=USA>United States of America</option>
+							<option value=UK>United Kingdom</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td colspan=3><input type=submit value=register></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

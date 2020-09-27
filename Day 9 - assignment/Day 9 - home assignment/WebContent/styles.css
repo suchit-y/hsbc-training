@@ -1,0 +1,32 @@
+#div1 {
+	font-family: Verdana;
+	color: green;
+	text-align: center;
+}
+
+#div2 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -175px;
+}
+
+input[type=submit] {
+	float: right;
+}
+
+table, td, tr {
+	padding: 5px;
+	width: 350px;
+}
+
+input[type=text], [type=password], [type=email] {
+	border: 2px solid blue;
+}
+
+input[type=text], [type=password], [type=email], select {
+	width: 100%;
+}

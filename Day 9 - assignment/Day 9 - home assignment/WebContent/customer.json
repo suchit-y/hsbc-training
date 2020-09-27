@@ -1,0 +1,33 @@
+{
+	"customer":[{
+		"custId": 100,
+		"custName": "Suchit",
+		"address": "Chennai",
+		"accountBalance": 25000.0
+	}, {
+		"custId": 101,
+		"custName": "Sanjay",
+		"address": "Pune",
+		"accountBalance": 25000.0
+	}, {
+		"custId": 102,
+		"custName": "Sagar",
+		"address": "Bangalore",
+		"accountBalance": 22000.0
+	}, {
+		"custId": 103,
+		"custName": "Sruthi",
+		"address": "Hyderabad",
+		"accountBalance": 24000.0
+	}, {
+		"custId": 104,
+		"custName": "Srikar",
+		"address": "Hyderabad",
+		"accountBalance": 22000.0
+	}, {
+		"custId": 105,
+		"custName": "Srikanth",
+		"address": "Pune",
+		"accountBalance": 24000.0
+	}]
+}
