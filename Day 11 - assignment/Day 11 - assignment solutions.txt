@@ -1,0 +1,7 @@
+2) Refer welcome.html, greet.jsp, Greet.java
+
+3) Refer login.html, LoginServlet.java, LogoutServlet.java, CheckoutPage.jsp
+
+4) Refer hello1.jsp, hello2.jsp, hello3.jsp
+
+5) Refer login.jsp, success.jsp, failure.jsp, LoginValidate.java
