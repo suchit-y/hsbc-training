@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home - Technical Support</title>
+</head>
+<body>
+	<h1 align=center>Technical Support System</h1>
+	<hr>
+	<form action="CustomerAppController" method="post">
+		<table>
+			<tr>
+				<td><label>Email: </label></td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td><label>Software: </label></td>
+				<td><select name="software">
+						<option value="MSWord">Microsoft Word</option>
+						<option value="MSPPt">Microsoft Power Point</option>
+						<option value="MSExcel">Microsoft Excel</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label>Operating System: </label></td>
+				<td><select name="os">
+						<option value="windows">Windows</option>
+						<option value="linux">Linux</option>
+						<option value="macOs">MacOS</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label>Problem Description: </label></td>
+				<td><textarea name="problemdesc" rows="5" cols="50"></textarea></td>
+			</tr>
+			<tr>
+			<td><input type="hidden" name="action" value="addRequest"></td>
+				<td align=center colspan=2><input type="submit"
+					value="Submit Request"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
