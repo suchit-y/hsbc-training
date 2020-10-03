@@ -1,0 +1,11 @@
+1) Refer Welcome.java
+
+2) Refer Greeting.java
+
+3) Refer ServletDemo.java
+
+4) Refer html-form.html, FormProcess.java
+
+5) Refer html-form.html, ServletFormProcess.java
+
+6) calculator.html, Calculate.java

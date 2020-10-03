@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+<style>
+tr, td {
+	padding: 10px;
+}
+</style>
+</head>
+<body>
+	<div id=div1>
+		<h2>Enter values and calculate</h2>
+	</div>
+	<hr>
+	<div id=div2>
+		<form action="Calculate" method="get" name=myForm
+			onsubmit="return(validate());">
+
+			<table>
+				<tr>
+					<td><label>Enter a: </label></td>
+					<td><input type=text name=a></td>
+				</tr>
+				<tr>
+					<td><label>Enter b: </label></td>
+					<td><input type=text name=b></td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="operation" value="Add"></td>
+					<td><input type="submit" name="operation" value="Multiply"></td>
+					<td><input type="submit" name="operation" value="Subtract"></td>
+					<td><input type="submit" name="operation" value="Divide"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
